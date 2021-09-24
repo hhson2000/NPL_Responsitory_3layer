@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BankProject.BusinessLogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BankProject.DataAccessLayer": "1.0.0",
+          "BankProject.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankProject.BusinessLogicLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankProject.BusinessLogicLayer.dll": {}
+        }
+      },
+      "BankProject.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BankProject.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankProject.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankProject.DataAccessLayer.dll": {}
+        }
+      },
+      "BankProject.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BankProject.Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankProject.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankProject.Entities.dll": {}
+        }
+      },
+      "BankProject.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BankProject.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankProject.Exception.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankProject.BusinessLogicLayer/1.0.0": {
+      "type": "project",
+      "path": "../BankProject.BusinessLogicLayer/BankProject.BusinessLogicLayer.csproj",
+      "msbuildProject": "../BankProject.BusinessLogicLayer/BankProject.BusinessLogicLayer.csproj"
+    },
+    "BankProject.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BankProject.DataAccessLayer/BankProject.DataAccessLayer.csproj",
+      "msbuildProject": "../BankProject.DataAccessLayer/BankProject.DataAccessLayer.csproj"
+    },
+    "BankProject.Entities/1.0.0": {
+      "type": "project",
+      "path": "../BankProject.Entities/BankProject.Entities.csproj",
+      "msbuildProject": "../BankProject.Entities/BankProject.Entities.csproj"
+    },
+    "BankProject.Exception/1.0.0": {
+      "type": "project",
+      "path": "../BankProject.Exception/BankProject.Exception.csproj",
+      "msbuildProject": "../BankProject.Exception/BankProject.Exception.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BankProject.BusinessLogicLayer >= 1.0.0",
+      "BankProject.Entities >= 1.0.0",
+      "BankProject.Exception >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Son\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Presentation\\BankProject.Presentation.csproj",
+      "projectName": "BankProject.Presentation",
+      "projectPath": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Presentation\\BankProject.Presentation.csproj",
+      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Presentation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.BusinessLogicLayer\\BankProject.BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.BusinessLogicLayer\\BankProject.BusinessLogicLayer.csproj"
+            },
+            "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Entities\\BankProject.Entities.csproj": {
+              "projectPath": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Entities\\BankProject.Entities.csproj"
+            },
+            "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Exception\\BankProject.Exception.csproj": {
+              "projectPath": "C:\\Users\\Son\\Desktop\\NPL_Assignment3_SonHH8\\BankProject\\BankProject.Exception\\BankProject.Exception.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

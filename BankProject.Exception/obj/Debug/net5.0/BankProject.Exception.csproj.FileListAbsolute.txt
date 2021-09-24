@@ -1,0 +1,11 @@
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\bin\Debug\net5.0\BankProject.Exception.deps.json
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\bin\Debug\net5.0\BankProject.Exception.dll
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\bin\Debug\net5.0\ref\BankProject.Exception.dll
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\bin\Debug\net5.0\BankProject.Exception.pdb
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.AssemblyInfoInputs.cache
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.AssemblyInfo.cs
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.csproj.CoreCompileInputs.cache
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.dll
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\ref\BankProject.Exception.dll
+C:\Users\Son\Desktop\Fresher_NET_04_NPL\BankProject\BankProject.Exception\obj\Debug\net5.0\BankProject.Exception.pdb

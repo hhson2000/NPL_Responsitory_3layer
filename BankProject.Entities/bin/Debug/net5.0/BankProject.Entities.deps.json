@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BankProject.Entities/1.0.0": {
+        "dependencies": {
+          "BankProject.Exception": "1.0.0"
+        },
+        "runtime": {
+          "BankProject.Entities.dll": {}
+        }
+      },
+      "BankProject.Exception/1.0.0": {
+        "runtime": {
+          "BankProject.Exception.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankProject.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankProject.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
